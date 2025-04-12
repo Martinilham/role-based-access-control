@@ -1,0 +1,29 @@
+
+[
+    {
+            "nama" : "aguse",
+            "keyaccess": {
+                    "role": "admin",
+                    "access": ["*"],
+                    "permissions": ["tambah","edit"]
+            }
+    },
+    {
+        "nama" : "rusdi",
+        "keyaccess": {
+            "role": "karyawan",
+            "access": ["/dashboard"],
+            "permissions": ["get"]
+        }
+    },
+    {
+        "nama" : "tarmijan",
+        "keyaccess": {
+            "role": "pengunjung",
+            "access": ["/menu"],
+            "permissions": ["get"]
+        }
+    }
+]
+
+  

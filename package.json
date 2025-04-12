@@ -1,0 +1,17 @@
+{
+  "name": "role-based-access-control",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "contoh/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
