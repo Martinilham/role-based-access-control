@@ -3,7 +3,7 @@ const authorizeRole = (access) => {
     const user = req.user;
 
     if (!user || !user.keyaccess) {
-      return res.status(401).json({ message: 'Unauthorized: No keyaccess' });
+      return res.status(401).json({ message: 'keyaccess kosong' });
     }
 
     const   role   = user.keyaccess.role;
